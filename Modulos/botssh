@@ -1,12 +1,12 @@
 #!/bin/bash
 #====================================================
 #	SCRIPT: BOTSSH SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	CRAZY_VPN
-#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
-#	CANAL TELEGRAM:	http://t.me/sshplus
+#	DESENVOLVIDO POR:	VPS_MASTER
+#	CONTATO TELEGRAM:	http://t.me/vps_master11
+#	GRUPO TELEGRAM:	http://t.me/mundo_arquivos
 #====================================================
 clear
-[[ $(awk -F" " '{print $2}' /usr/lib/licence) != "@KIRITO_SSH" ]] && exit 0
+[[ $(awk -F" " '{print $2}' /usr/lib/licence) != "@MASTER_VPS" ]] && exit 0
 fun_bar() {
     comando[0]="$1"
     comando[1]="$2"
